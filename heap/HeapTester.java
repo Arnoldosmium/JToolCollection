@@ -32,7 +32,7 @@ public class HeapTester {
 		ArrayHeap<Integer> h = new ArrayHeap<Integer>();
 		ArrayList<Integer> arr = new ArrayList<Integer>();
 		int N = 100;
-		int range = 10;
+		int range = 99;
 		Random r = new Random();
 		for(int i = 0; i < N; i++)
 			arr.add(r.nextInt(range));
