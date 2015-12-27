@@ -15,14 +15,14 @@ import search.BinSearch;
 public class SortTester {
 
 	public static void main(String[] args) {
-		int N = 49;
-		int range = 10000;
-		int p_size = 5;
+		int N = 100000;
+		int range = 101010;
+		int p_size = N/10;
 
 		Random r = new Random();
 		ArrayList<Integer> arr = new ArrayList<Integer>();
 		ArrayList<Integer> org = new ArrayList<Integer>();
-		AbstractSort<Integer> s = new HeapSort<Integer>();
+		AbstractSort<Integer> s = new ShellSort<Integer>();
 		BinSearch<Integer> bs = new BinSearch<Integer>();
 		
 		for(int i = 0; i < N; i++){

@@ -16,3 +16,5 @@ public abstract class AbstractSort<T extends Comparable<T>> {
 	abstract public void sort(List<T> list, int from, int to); 
 
 }
+
+
