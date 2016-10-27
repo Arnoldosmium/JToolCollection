@@ -12,7 +12,7 @@ import java.util.*;
 public class ShufflerTester {
 
 	public static void main(String[] args) throws Exception {
-		int N = 10;
+		int N = 9;
 		ArrayList<Integer> list = new ArrayList<Integer>(); 
 		ArrayList<Integer> src = new ArrayList<Integer>();
 		for(int i = 0; i < N; i++){
